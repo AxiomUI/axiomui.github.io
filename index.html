@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width; initial-scale=1.0;" />
 <meta charset="utf-8">
 <link rel="icon" href="img/axiom.ico" />
-<title>Axiom UI ~ An FFmpeg Interface for Windows</title>
+<title>Axiom ~ An FFmpeg Interface for Windows</title>
 <style>
 @media screen and (max-height: 719px) {
 	.header {
@@ -36,6 +36,13 @@
 	}
 	.features ul {
     	font-size: 0.9em !important;
+	}
+	.download a {
+    	clear: both;
+    	display: block;
+	}
+	span.bullet-divider {
+		display: none;
 	}
 }
 
@@ -130,12 +137,10 @@ li:before {
 .line {
 	height:1px; 
 
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0043a8+0,0043a8+100&0+0,1+50,0+100 */
-background: -moz-linear-gradient(left,  rgba(0,67,168,0) 0%, rgba(0,67,168,1) 50%, rgba(0,67,168,0) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  rgba(0,67,168,0) 0%,rgba(0,67,168,1) 50%,rgba(0,67,168,0) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  rgba(0,67,168,0) 0%,rgba(0,67,168,1) 50%,rgba(0,67,168,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000043a8', endColorstr='#000043a8',GradientType=1 ); /* IE6-9 */
-
+	background: -moz-linear-gradient(left,  rgba(0,67,168,0) 0%, rgba(0,67,168,1) 50%, rgba(0,67,168,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgba(0,67,168,0) 0%,rgba(0,67,168,1) 50%,rgba(0,67,168,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgba(0,67,168,0) 0%,rgba(0,67,168,1) 50%,rgba(0,67,168,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000043a8', endColorstr='#000043a8',GradientType=1 ); /* IE6-9 */
 }
 
 .container-outer {
@@ -176,6 +181,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000043a8', e
 	text-align:center;
 	font-size: 1.1em;
 	padding: 2em 0 0 0;
+	font-weight: 300;
 }
 .download a {
 	color: white;
@@ -194,7 +200,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000043a8', e
 .download-link  {
 	display:inline-block;
 }
+.bullet-divider {
 
+}
 .features {
 	text-align: left;
 	display: inline-block;
@@ -277,16 +285,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000043a8', e
 	    <div class="download">
 		<span class="download-title"><a href="https://github.com/MattMcManis/Axiom" target="_blank">Download at GitHub</a></span>
 		<br>
-		<span style="font-weight:300;">
-		</span><a href="https://github.com/MattMcManis/Axiom/releases/download/0.8.0-alpha/Axiom.zip" target="_blank"><span >Axiom </span> <span style="font-weight:300;">Standalone</span></a>   <span style="font-weight:300;">•</span>   </span><a href="https://github.com/MattMcManis/Axiom/releases/download/0.8.0-alpha/Axiom.FFmpeg.zip" target="_blank"><span >Axiom </span> <span style="font-weight:300;"> + FFmpeg (x64)</span></a>   <span style="font-weight:300;">•</span>   <span style="font-weight:300;"><a class="download-link-ffmpeg" href="https://ffmpeg.zeranoe.com/builds/" target="_blank">FFmpeg Builds</a>
-	    </span>
+		<a href="https://github.com/MattMcManis/Axiom/releases/download/0.8.0-alpha/Axiom.zip" target="_blank">Axiom Interface</a><span class="bullet-divider">   •   </span></span><a href="https://github.com/MattMcManis/Axiom/releases/download/0.8.0-alpha/Axiom.FFmpeg.zip" target="_blank">Axiom + FFmpeg (x64)</a><span class="bullet-divider">   •   </span><a class="download-link-ffmpeg" href="https://ffmpeg.zeranoe.com/builds/" target="_blank">FFmpeg Builds </a><a href="https://github.com/FFmpeg/FFmpeg" target="_blank">(Source)</a>
 	    </div>
 		</main>
 
         </div> <!-- End Container Inner table-cell -->
     </div> <!-- End Container Outer table -->
-    
-   
+       
    <div class="line"></div>
 
 <footer>
