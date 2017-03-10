@@ -167,8 +167,8 @@ li:before {
 }
 
 .download {
-    margin:auto auto;
     display:block;
+    margin: 0 auto 0.5em auto;
     text-align:center;
     font-size: 1.1em;
     padding: 2em 0 0 0;
@@ -189,7 +189,19 @@ li:before {
     color: #0071ff;
 }
 .download-link  {
-    display:inline-block;
+    display: inline-block;
+}
+a.github:link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+}
+a.github:visited {
+    color: #fff;
+    text-decoration: none;
+}
+a.github:hover {
+    color: #4ebaff;
 }
 .bullet-divider {
 
