@@ -24,6 +24,10 @@
     .download-title {
         display:block;
     }
+	.subtitle {
+	    font-size: 1.2em !important;
+	    margin: 0.25em 0 1.3em 0 !important;
+	}
     .download-link {
         display:block;
     }
@@ -33,6 +37,7 @@
     .download a {
         clear: both;
         display: block;
+        margin: 0.3em 0;
     }
     span.bullet-divider {
         display: none;
