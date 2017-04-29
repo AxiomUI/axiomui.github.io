@@ -165,7 +165,7 @@ li:before {
     font-size: 1.4em;
     font-weight: 300;
     text-align: center;
-    margin: 0.25em 0 0.7em 0;
+    margin: 0.25em 0 0.8em 0;
 }
 .imgshowcase {
     display: inline-block;
@@ -187,7 +187,7 @@ li:before {
 }
 .download-title {
     display:inline-block;
-    line-height: 2em;
+    margin: 0 0 0.8em 0;
     color: #0071ff;
 }
 .download-title a {
@@ -229,7 +229,7 @@ a.github:hover {
     line-height: 1.4em;
 }
 .footer {
-    margin:0.5em 0 2em 0;
+    margin: 0.8em 0 2em 0;
 }
 .footer ul {
     list-style-type: none;
