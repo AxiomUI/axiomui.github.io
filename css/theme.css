@@ -117,6 +117,7 @@ ul {
 }
 li { 
     text-indent: 0.5em;
+    margin: 0.5em 0;
 }
 li:before {
     content: "• ";
@@ -221,7 +222,7 @@ a.github:hover {
 .features h4 {
     font-size: 1.1em;
     font-weight: normal;
-    margin: 0 0 0.5em 0;
+    margin: 0 0 1em 0;
 }
 .features ul {
     padding: 0 0 0 0;
